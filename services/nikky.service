@@ -1,0 +1,11 @@
+[Unit]
+Description=Nikky, I manage your system
+
+[Service]
+User=root
+WorkingDirectory=/root/.nikky/
+ExecStart=/usr/bin/python3 /usr/local/lib/nikky.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
