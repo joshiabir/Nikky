@@ -1,29 +1,12 @@
-server/vendor/
-server/node_modules/
-server/npm-debug.log
-server/yarn-error.log
-
-# Laravel 4 specific
-server/bootstrap/compiled.php
-server/app/storage/
-
-# Laravel 5 & Lumen specific
-server/public/storage
-server/public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-server/storage/*.key
-server/.env
-server/Homestead.yaml
-server/Homestead.json
-server.vagrant
-server/.phpunit.result.cache
-
-services/lib
-services/bin
-services/include
-services/lib64
-
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
