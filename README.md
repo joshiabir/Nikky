@@ -1,6 +1,6 @@
 # Nikky Server
 
-This server is written in Laravel 7 made to work as a command and control for various services which can be deployed on Linux based machines.
+This app is written in Laravel 7 made to work as a command and control for various services which can be deployed on Linux based machines.
 
 ## Pre-requsities
 - Install Php 7.2
